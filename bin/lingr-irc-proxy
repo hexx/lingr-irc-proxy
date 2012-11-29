@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+APPKEY=8ilYP0
+USER=pab
+PASSWORD=pablingr
+java -Dlingr.appkey=$APPKEY -Dlingr.user=$USER -Dlingr.password=$PASSWORD -jar lingr-irc-proxy.jar 
